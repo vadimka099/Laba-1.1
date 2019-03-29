@@ -23,10 +23,7 @@
 
 void calculate::sum(double a, double b, double c, double d)
 {
-	a = re1;
-	b = re2;
-	c = im1;
-	d = im2;
+	
 	double mnim = c + d;
 	if (mnim >= 0)
 		cout << (a+b) << "+" << mnim << "i" << endl;
@@ -41,10 +38,7 @@ void calculate::sum(double a, double b, double c, double d)
 
 void calculate::raz(double a, double b, double c, double d)
 {
-	a = re1;
-	b = re2;
-	c = im1;
-	d = im2;
+	
 	double mnim = c - d;
 	if(mnim>=0)
 		cout << (a - b) << "+" << mnim << "i" << endl;
@@ -54,10 +48,7 @@ void calculate::raz(double a, double b, double c, double d)
 
 void calculate::umn(double a, double b, double c, double d)
 {
-	a = re1;
-	b = re2;
-	c = im1;
-	d = im2;
+	
 	double mnim = ((a*d)+(b*c));
 	if (mnim >= 0)
 		cout << ((a*b)-(c*d)) << "+" << mnim << "i" << endl;
@@ -67,10 +58,7 @@ void calculate::umn(double a, double b, double c, double d)
 
 void calculate::del(double a, double b, double c, double d)
 {
-	a = re1;
-	c = re2;
-	b = im1;
-	d = im2;
+	
 	double mnim = (b*c - a * d) / (c*c + d * d);
 	if (mnim >= 0)
 		cout << ((a*c)+(b*d))/((c*c)+(d*d)) << "+" << mnim << "i" << endl;
